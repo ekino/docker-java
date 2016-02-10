@@ -4,7 +4,7 @@ FROM ekino/base
 MAINTAINER Matthieu Fronton <fronton@ekino.com>
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV JAVA_VERSION 7
+ENV JAVA_VERSION 8
 
 # install java
 RUN apt-get update && apt-get install -y software-properties-common python-software-properties
